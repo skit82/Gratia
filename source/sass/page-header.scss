@@ -1,0 +1,26 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  min-height: 1101px;
+  padding: 0px 89px;
+  background-color: #151b28;
+  background-size: 2000px 0px;
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 65px;
+  }
+
+  &__logo {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    p {
+      margin: 0px;
+      margin-left: 15px;
+      color: #fff;
+    }
+  }
+}

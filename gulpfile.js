@@ -18,9 +18,9 @@ gulp.task('style', function() {
     .pipe(server.stream());
 });
 
-gulp.task("serve", ["style"], function() {
+gulp.task('serve', ['style'], function() {
   server.init({
-    server: "source/",
+    server: 'source/',
     notify: false,
     open: true,
     cors: true,

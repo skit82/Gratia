@@ -1,0 +1,39 @@
+body {
+  min-width: 2000px;
+  margin: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  font-size: $font-size-h1;
+  font-family: $font-family;
+  line-height: 36px;
+  font-weight: bold;
+  color: #151b28;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

@@ -1,0 +1,16 @@
+.main-nav {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  &__link {
+    font-size: $font-size-h2;
+    color: #fff;
+  }
+}
