@@ -2,10 +2,32 @@
 
   &__descr {
     display: flex;
+    position: relative;
   }
 
   &__image {
     margin: auto;
     text-shadow: 0px 0px 85px rgb(19, 24, 36);
+  }
+
+  &__foto {
+    position: absolute;
+    left: 482px;
+    top: 56px;
+  }
+
+  &__arrow {
+
+    &--left {
+      position: absolute;
+      left: 0px;
+      top: 360px;
+    }
+
+    &--right {
+      position: absolute;
+      right: 0px;
+      top: 360px;
+    }
   }
 }
