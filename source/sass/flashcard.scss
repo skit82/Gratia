@@ -1,0 +1,19 @@
+.flashcard {
+  position: relative;
+
+  &__title {
+    margin: 0px;
+    padding: 0px;
+    font-size: $font-size--h3;
+    line-height: $font-size--h3 + 36;
+    color: #d89b64;
+    text-transform: uppercase;
+  }
+
+  &__inner {
+    position: absolute;
+    left: 192px;
+    top: 180px;
+    width: 466px;
+  }
+}

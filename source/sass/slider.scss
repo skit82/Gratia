@@ -3,6 +3,7 @@
   &__descr {
     display: flex;
     position: relative;
+    padding-top: 75px;
   }
 
   &__image {
@@ -13,7 +14,7 @@
   &__foto {
     position: absolute;
     left: 482px;
-    top: 56px;
+    top: 125px;
   }
 
   &__arrow {
@@ -21,13 +22,56 @@
     &--left {
       position: absolute;
       left: 0px;
-      top: 360px;
+      top: 430px;
     }
 
     &--right {
       position: absolute;
       right: 0px;
-      top: 360px;
+      top: 430px;
     }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    position: absolute;
+    top: 790px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  &__item {
+    font-size: $font-size--h2;
+    line-height: $font-size--h2 * 6 + 4;
+    color: #ffffff;
+  }
+
+  &__text {
+
+    p {
+      width: 255px;
+      margin: 0px;
+      margin-left: 774px;
+      font-family: "Crimson Text", sans-serif;
+      color: #485471;
+    }
+  }
+
+  &__btn {
+    display: block;
+    width: 229px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin-top: -16px;
+    font-size: $font-size--h2;
+    letter-spacing: 0.025em;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #263045;
   }
 }
