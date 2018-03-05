@@ -7,13 +7,21 @@
     font-size: $font-size--h3;
     line-height: $font-size--h3 + 36;
     color: #d89b64;
+    text-align: center;
     text-transform: uppercase;
   }
 
   &__inner {
     position: absolute;
-    left: 192px;
+    left: 98px;
     top: 180px;
     width: 466px;
+  }
+
+  &__text {
+    margin: 0px;
+    font-family: "Crimson Text", sans-serif;
+    font-weight: normal;
+    color: #ffffff;
   }
 }
