@@ -1,0 +1,25 @@
+.information {
+  position: relative;
+  width: 2000px;
+  height: 708px;
+  background-image: url("../img/Photo.jpg");
+
+  &__wrapper {
+    position: absolute;
+    left: 613px;
+    top: 141px;
+    width: 774px;
+    height: 431px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  &__inner {
+    position: absolute;
+    left: 651px;
+    top: 181px;
+    width: 696px;
+    height: 353px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid #8a8f9c;
+  }
+}

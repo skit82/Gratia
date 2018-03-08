@@ -51,22 +51,26 @@
   </header>
   <main class="page-main">
     <section class="product">
-      <h2 class="product__title">Perfection</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="product__wrapper">
+        <h2 class="product__title">Perfection</h2>
+        <p class="product__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
       <ul class="product__list  flashcard">
-        <li class="flashcard__item">
+        <li class="flashcard__item  flashcard__item--desser">
           <img src="img/Dark-dessert.jpg" width="651" height="490" alt="Дессерт" class="flashcard__image">
           <div class="flashcard__inner">
             <h3 class="flashcard__title">Desserts</h3>
             <p class="flashcard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </li>
-        <li class="flashcard__item">
-          <img class="flashcard__image" src="img/Photo-smoot.jpg" width="569" height="699" alt="Картинка">
-          <h3 class="flashcard__title">Smoothies</h3>
-          <p class="flashcard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <li class="flashcard__item  flashcard__item--smooth">
+          <img  class="flashcard__image flashcard__image--foto" src="img/Photo-smoot.jpg" width="569" height="699" alt="Картинка">
+          <div class="flashcard__inner  flashcard__inner--item">
+            <h3 class="flashcard__title  flashcard__title--name">Smoothies</h3>
+            <p class="flashcard__text  flashcard__text--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
         </li>
-        <li class="flashcard__item">
+        <li class="flashcard__item  flashcard__item--breakf">
           <img src="img/Dark-brecfast.jpg" width="650" height="490" alt="Завтрак" class="flashcard__image">
           <div class="flashcard__inner">
             <h3 class="flashcard__title">Breakfast</h3>
@@ -74,6 +78,16 @@
           </div>
         </li>
       </ul>
+      <a href="#" class="product__link">Check Other Offers</a>
+    </section>
+    <section class="information">
+      <div class="information__wrapper">
+        <div class="information__inner">
+          <h2 class="information__title">Details</h2>
+          <p class="information__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a class="information__link" href="#">Preparation of our dishes</a>
+        </div>
+      </div>
     </section>
   </main>
 </body>
