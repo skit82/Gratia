@@ -7,6 +7,10 @@
     list-style: none;
   }
 
+  &__wrapper {
+    margin-bottom: 123px;
+  }
+
   &__wrapper::before {
     position: absolute;
     content: "";
@@ -14,7 +18,6 @@
     top: 0px;
     width: 589px;
     height: 189px;
-    margin-bottom: 77px;
     background-image: url(../img/gratia.png);
   }
 
@@ -44,26 +47,83 @@
   }
 
   &__item {
+    align-self: center;
     position: relative;
     width: 636px;
     height: 300px;
     background-color: rgb(248, 248, 248);
 
-    &::before {
+    &--fon {
+      width: 636px;
+      height: 380px;
+      background-color: rgb(21, 27, 40);
+    }
+
+    &--locat::before {
       position: absolute;
       content: "";
-      left: 245px;
-      top: 55px;
+      left: 265px;
+      top: 60px;
       width: 79px;
       height: 175px;
       background-image: url(../img/4-promo.png);
+    }
+
+    &--fresh::before {
+      position: absolute;
+      content: "";
+      left: 77px;
+      top: 25px;
+      width: 449px;
+      height: 329px;
+      background-image: url(../img/532-promo.png);
+      text-shadow: 0px 0px 85px rgb(19, 24, 36);
+    }
+
+    &--best::before {
+      position: absolute;
+      content: "";
+      left: 215px;
+      top: 63px;
+      width: 208px;
+      height: 172px;
+      background-image: url(../img/16-promo.png);
     }
   }
 
   &__inner {
     position: absolute;
     left: 77px;
-    top: 110px;
+    top: 77px;
     width: 467px;
+
+    &--box {
+      position: absolute;
+      left: 77px;
+      top: 116px;
+    }
+  }
+
+  &__name {
+    margin: 0px;
+    font-size: $font-size-h1;
+    line-height: $font-size-h1 + 60;
+    color: #d89b64;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text-block {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Crimson Text", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #8a8f9c;
+
+    &--color {
+      color: #ffffff;
+      font-weight: normal;
+    }
   }
 }
