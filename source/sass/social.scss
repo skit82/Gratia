@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  width: 115px;
+  margin: 0 auto;
+  padding: 0px;
+  padding-bottom: 203px;
+  list-style: none;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: -25px;
+    top: 0px;
+    width: 156px;
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+
+  &__item {
+    display: block;
+    padding-top: 30px;
+  }
+}
