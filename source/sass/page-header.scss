@@ -7,11 +7,30 @@
   background-size: 2000px 0px;
   margin-bottom: 99px;
 
+  &--menu {
+    min-height: 0px;
+    background-color: #ffffff;
+  }
+
   &__inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
     margin-top: 65px;
+
+    &--line::after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      width: 1822px;
+      height: 1px;
+      background-color: #e6e6e6;
+    }
+
+    &--line {
+      padding-bottom: 65px;
+    }
   }
 
   &__logo {

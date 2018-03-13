@@ -12,5 +12,10 @@
   &__link {
     font-size: $font-size--h2;
     color: #fff;
+
+    &--box {
+      font-size: $font-size--h2;
+      color: #000000;
+    }
   }
 }
